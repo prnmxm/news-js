@@ -1,0 +1,9 @@
+.biography {
+    background: #FFFFFF;
+    padding: 80px 0 80px;
+}
+@media screen and (max-width: 768px){
+    .biography {
+        padding: 61px 0;
+    }
+}

@@ -1,0 +1,10 @@
+.icon-logout {
+    display: block;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    background-color: currentColor;
+    -webkit-mask-image: url(../../images/logout.svg);
+    mask-image: url(../../images/logout.svg);
+}

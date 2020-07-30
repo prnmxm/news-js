@@ -1,0 +1,23 @@
+.footer__items {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 25px 0;
+    padding: 0;
+}
+@media screen and (max-width: 768px){
+    .footer__items {
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .footer__items {
+        flex-wrap: wrap;
+        grid-column: auto;
+        height: auto;
+        grid-row: 1;
+        align-self: start;
+    }
+}
+

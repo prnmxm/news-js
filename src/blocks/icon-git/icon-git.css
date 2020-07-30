@@ -1,0 +1,9 @@
+.icon-git {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background-color: #000000;
+    -webkit-mask-image: url(../../images/github.svg);
+    mask-image: url(../../images/github.svg);
+}

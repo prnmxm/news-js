@@ -1,0 +1,9 @@
+.card__paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1A1B22;
+    max-width: 352px;
+    font-style: normal;
+    font-weight: normal;
+}

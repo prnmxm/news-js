@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="<%= require('./ico.png').default %>" type="image/png">
+    <title>Что творится в мире?</title>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
+</head>
+<body>
+    <header class="header header_theme_bg">
+        <nav class="nav nav_theme_white">
+            <div class="nav__container container">
+                <a href="/" class="nav__brand link">NewsExplorer</a>
+                <ul class="nav__items">
+                    <li class="nav__item nav__item_active"><a href="index.html" class="nav__link link">Главная</a></li>
+
+                    <li class="nav__item"><button class="nav__button button">Авторизоваться</button></li>
+<!--                    <li class="nav__item"><button class="nav__button button"><span class="caret">Очень длинное имя 123123123 <span class="icon-logout"></span></span> </button></li>-->
+                </ul>
+                <button class="nav__toggler"><span class="icon-menu"></span></button>
+            </div>
+        </nav>
+        <div class="header__container header__container_align_center container">
+            <div class="header__wrapper">
+                    <h1 class="header__title">Что в мире творится?</h1>
+                    <p class="header__paragraph paragraph">Находите самые свежие статьи на любую тему и сохраняйте в своём личном кабинете.</p>
+                    <form class="formSearch">
+                        <input type="text" name="search" class="formSearch__input" placeholder="Введите тему новости" required>
+                        <button class="formSearch__button button">Искать</button>
+                    </form>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+
+<!--
+        <section class="result">
+            <div class="circle-preloader"></div>
+            <p class="result__search">Идет поиск новостей...</p>
+        </section>
+-->
+<!--
+        <section class="result">
+            <div class="result__notFound"></div>
+            <h2 class="result__subtitle">Ничего не найдено</h2>
+        </section>
+-->
+
+
+
+        <section class="result"></section>
+      <section class="biography">
+        <div class="biography__container container">
+          <img src="<%= require('./images/image-03.png').default %>" alt="Фото девушки" class="biography_img">
+          <div class="biography__info">
+            <h2 class="biography__title sectionTitle">Об авторе</h2>
+            <p class="biography__paragraph paragraph">Это блок с описанием автора проекта. Здесь следует
+              указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.</p>
+            <p class="biography__paragraph paragraph">Также можно рассказать о процессе обучения в Практикуме,
+              чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <span class="footer__copyright textMuted">© 2020 Supersite, Powered by News API</span>
+            <ul class="footer__items">
+                <li class="footer__item">
+                    <a href="#" class="footer__link link" target="_blank">Главная</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link link" target="_blank">Яндекс.Практикум</a>
+                </li>
+            </ul>
+            <ul class="footer__items">
+                <li class="footer__item">
+                    <a href="#" class="footer__link link" target="_blank"><span class="icon-git"></span></a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link link" target="_blank"><span class="icon-fb"></span></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+<!--
+popup_open открывает модальное окно
+-->
+        <div class="popup"></div>
+
+
+
+
+
+    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+</body>
+</html>

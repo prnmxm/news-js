@@ -1,0 +1,10 @@
+.header_theme_bg {
+    background-image: url(../../../images/header.jpg);
+    background-size: cover;
+    color: #fff;
+}
+@media screen and (max-width: 768px) {
+    .header_theme_bg {
+        background-position: center;
+    }
+}

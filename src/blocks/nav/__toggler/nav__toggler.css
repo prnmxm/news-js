@@ -1,0 +1,13 @@
+.nav__toggler {
+    display: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: currentColor;
+    z-index: 3;
+}
+@media screen and (max-width: 600px) {
+    .nav__toggler {
+        display: block;
+    }
+}

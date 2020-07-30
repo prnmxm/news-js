@@ -1,0 +1,8 @@
+.card__header {
+    max-height: 272px;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    flex: 0 0 auto;
+
+}

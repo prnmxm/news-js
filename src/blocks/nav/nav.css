@@ -1,0 +1,26 @@
+.nav {
+    height: 79px;
+    background: rgba(196, 196, 196, 0.01);
+    position: relative;
+    color: #1A1B22;
+}
+.nav:after {
+    position: absolute;
+    bottom: 0;
+    content: '';
+    height: 1px;
+    width: 100%;
+    background: #D1D2D6;
+    left: 0;
+    z-index: 999;
+}
+@media screen and (max-width: 768px) {
+    .nav {
+        height: 65px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .nav {
+        height: 56px;
+    }
+}

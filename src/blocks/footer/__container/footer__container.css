@@ -1,0 +1,20 @@
+.footer__container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+@media screen and (max-width: 768px){
+    .footer__container {
+        flex-direction: column-reverse;
+        padding: 10px 0;
+    }
+}
+@media screen and (max-width: 320px){
+    .footer__container {
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: 2fr;
+        justify-items: center;
+        padding: 20px 0;
+    }
+}

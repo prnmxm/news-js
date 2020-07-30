@@ -1,0 +1,8 @@
+.biography__title {
+    margin-bottom: 16px;
+}
+@media screen and (max-width: 550px){
+    .biography__title {
+        text-align: center;
+    }
+}

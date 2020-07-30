@@ -1,0 +1,15 @@
+.nav__button {
+    box-shadow: 0 0 1px 1px #D1D2D6 inset, 0 0 1px 0px #D1D2D6;
+    border-radius: 100px;
+    background: none;
+    color: inherit;
+    padding: 12px ;
+    max-width: 180px;
+}
+@media screen and (max-width: 600px) {
+    .nav__button {
+        width: 100%;
+        padding: 15px 0;
+        max-width: 100%;
+    }
+}

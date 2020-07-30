@@ -1,0 +1,25 @@
+.card__left-block {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: #FFFFFF;
+    width: max-content;
+    height: 40px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    border-radius: 8px;
+}
+
+
+
+
+
+

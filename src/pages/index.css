@@ -1,0 +1,109 @@
+@import "../vendor/fonts.css";
+/* main */
+@import "../blocks/main/main.css";
+/* Mix */
+@import "../blocks/link/link.css";
+@import "../blocks/container/container.css";
+@import "../blocks/button/button.css";
+@import "../blocks/overflow/oveflow.css";
+@import "../blocks/paragraph/paragraph.css";
+
+@import "../blocks/sectionTitle/sectionTitle.css";
+@import "../blocks/bold/bold.css";
+
+/* icon */
+@import "../blocks/icon-logout/icon-logout.css";
+@import "../blocks/icon-menu/icon-menu.css";
+@import "../blocks/icon-favorite/icon-favorite.css";
+@import "../blocks/icon-favorite/_active/icon-favorite_active.css";
+@import "../blocks/icon-close/icon-close.css";
+/* NavBar */
+@import "../blocks/nav/nav.css";
+@import "../blocks/nav/__container/nav__container.css";
+@import "../blocks/nav/__brand/nav__brand.css";
+@import "../blocks/nav/__items/nav__items.css";
+@import "../blocks/nav/__item/nav__item.css";
+@import "../blocks/nav/__item/_active/nav__item_active.css";
+@import "../blocks/nav/__link/nav__link.css";
+@import "../blocks/nav/__toggler/nav__toggler.css";
+@import "../blocks/nav/__button/nav__button.css";
+@import "../blocks/nav/__items/_show/nav__items_show.css";
+@import "../blocks/nav/_theme/nav_theme_white.css";
+@import "../blocks/nav/_theme/nav_theme_dark.css";
+/* header */
+@import "../blocks/header/header.css";
+@import "../blocks/header/__wrapper/header__wrapper.css";
+@import "../blocks/header/__container/header__container.css";
+@import "../blocks/header/__container/_align/header__container_align_center.css";
+@import "../blocks/header/_theme/header_theme_bg.css";
+@import "../blocks/header/__title/header__title.css";
+@import "../blocks/header/__paragraph/header__paragraph.css";
+
+/* formSearch */
+@import "../blocks/formSearch/formSearch.css";
+@import "../blocks/formSearch/__button/formSearch__button.css";
+@import "../blocks/formSearch/__input/formSearch__input.css";
+
+/* footer */
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__container/footer__container.css";
+@import "../blocks/footer/__items/footer__items.css";
+@import "../blocks/footer/__item/footer__item.css";
+@import "../blocks/footer/__link/footer__link.css";
+@import "../blocks/footer/__copyright/footer__copyright.css";
+@import "../blocks/icon-fb/icon-fb.css";
+@import "../blocks/icon-git/icon-git.css";
+
+/* biography */
+@import "../blocks/biography/biography.css";
+@import "../blocks/biography/__container/biography__container.css";
+@import "../blocks/biography/__info/biography__info.css";
+@import "../blocks/biography/__img/biography__img.css";
+@import "../blocks/biography/__paragraph/biography__paragraph.css";
+@import "../blocks/biography/__title/biography__tittle.css";
+
+/* result */
+@import "../blocks/result/result.css";
+@import "../blocks/result/__title/result__title.css";
+@import "../blocks/result/__search/result__search.css";
+@import "../blocks/result/__subtitle/result__subtitle.css";
+@import "../blocks/result/__notFound/result__notFound.css";
+/* cards */
+@import "../blocks/cards/cards.css";
+@import "../blocks/card/card.css";
+
+@import "../blocks/texMuted/textMuted.css";
+
+
+/* form */
+@import "../blocks/popup/popup.css";
+@import "../blocks/popup/_open/popup_open.css";
+@import "../blocks/popup/__body/popup__body.css";
+@import "../blocks/popup/__close/popup__close.css";
+@import "../blocks/popup/__name/popup__name.css";
+@import "../blocks/popup/__group/popup__group.css";
+@import "../blocks/popup/__label/popup__label.css";
+@import "../blocks/popup/__field/popup__field.css";
+@import "../blocks/popup/__button/popup__button.css";
+@import "../blocks/popup/__link/popup__link.css";
+@import "../blocks/popup/__error/popup__error.css";
+@import "../blocks/popup/__form/popup__form.css";
+@import "../blocks/popup/__button/_active/popup__button_active.css";
+@import "../blocks/popup/__text/popup__text.css";
+@import "../blocks/popup/__text/_size/popup__text_size_middle.css";
+
+@import "../blocks/circle-preloader/circle-preloader.css";
+@import "../blocks/caret/caret.css";
+* {
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #FFFFFF;
+
+}

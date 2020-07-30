@@ -1,0 +1,19 @@
+.footer__copyright {
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+@media screen and (max-width: 768px){
+    .footer__copyright {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 320px){
+    .footer__copyright {
+        grid-column: 1/3;
+        grid-row: 2;
+    }
+}

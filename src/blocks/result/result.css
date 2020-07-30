@@ -1,0 +1,18 @@
+.result {
+    padding: 80px 0 ;
+    background: #F5F6F7;
+}
+.result:empty {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+    .result {
+        padding: 40px 0 ;
+    }
+}
+@media screen and (max-width: 320px) {
+    .result {
+        padding: 32px 0 ;
+    }
+
+}

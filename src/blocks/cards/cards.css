@@ -1,0 +1,24 @@
+@import "__more/cards__more.css";
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    justify-content: space-between;
+    justify-items: center;
+}
+@media screen and (max-width: 970px) {
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 8px;
+        grid-row-gap: 8px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

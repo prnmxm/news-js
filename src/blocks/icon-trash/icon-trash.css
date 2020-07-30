@@ -1,0 +1,14 @@
+.icon-trash {
+    display: block;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background-color: #1A1B22;
+    -webkit-mask-image: url(../../images/trash.svg);
+    mask-image: url(../../images/trash.svg);
+    opacity: 0.7;
+    transition: opacity 0.2s ease-in-out;
+}
+.icon-trash:hover {
+    opacity: 1;
+}

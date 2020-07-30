@@ -1,0 +1,9 @@
+.icon-menu {
+    display: block;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background-color: currentColor;
+    -webkit-mask-image: url(../../images/menu.svg);
+    mask-image: url(../../images/menu.svg);
+}

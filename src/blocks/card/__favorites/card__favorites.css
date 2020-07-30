@@ -1,0 +1,21 @@
+.card__favorites {
+    background: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    cursor: pointer;
+    transition: box-shadow 0.2s linear;
+}
+.card__favorites:hover {
+    box-shadow: 0 0 5px #000;
+}
+.card__favorites:focus {
+    box-shadow: 0 0 5px #000;
+}
+

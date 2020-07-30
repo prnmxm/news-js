@@ -1,0 +1,9 @@
+.nav__item_active {
+    border-bottom: 3px solid currentColor;
+}
+
+@media screen and (max-width: 600px) {
+    .nav__item_active {
+        border-bottom: none;
+    }
+}

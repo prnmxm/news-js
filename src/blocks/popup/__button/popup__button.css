@@ -1,0 +1,17 @@
+.popup__button {
+    background: #E6E8EB;
+    border-radius: 100px;
+    padding: 21px 0;
+    width: 100%;
+    margin-bottom: 16px;
+    color: #B6BCBF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    transition: background 0.2s linear;
+}
+.popup__button:hover {
+    background: #e6e8eb;
+}

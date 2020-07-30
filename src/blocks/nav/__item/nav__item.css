@@ -1,0 +1,23 @@
+.nav__item {
+    list-style-type: none;
+    margin-right: 34px;
+    color: inherit;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav__item:last-child {
+    margin-right: 0;
+}
+@media screen and (max-width: 768px){
+    .nav__item {
+        margin-right: 16px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .nav__item {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

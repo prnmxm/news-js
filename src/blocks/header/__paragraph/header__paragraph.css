@@ -1,0 +1,21 @@
+.header__paragraph {
+    margin-top: 32px;
+    margin-bottom: 64px;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 18px;
+    line-height: 24px;
+    color: inherit;
+    max-width: 545px;
+}
+@media screen and (max-width: 768px){
+    .header__paragraph {
+        max-width: 452px
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__paragraph {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+}

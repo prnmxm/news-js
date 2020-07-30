@@ -1,0 +1,91 @@
+@import "../vendor/fonts.css";
+
+/* main */
+@import "../blocks/main/main.css";
+/* Mix */
+@import "../blocks/link/link.css";
+@import "../blocks/container/container.css";
+@import "../blocks/button/button.css";
+@import "../blocks/overflow/oveflow.css";
+@import "../blocks/paragraph/paragraph.css";
+
+@import "../blocks/sectionTitle/sectionTitle.css";
+@import "../blocks/bold/bold.css";
+/* icon */
+@import "../blocks/icon-logout/icon-logout.css";
+@import "../blocks/icon-menu/icon-menu.css";
+@import "../blocks/icon-favorite/icon-favorite.css";
+@import "../blocks/icon-favorite/_active/icon-favorite_active.css";
+@import "../blocks/icon-trash/icon-trash.css";
+/* NavBar */
+@import "../blocks/nav/nav.css";
+@import "../blocks/nav/__container/nav__container.css";
+@import "../blocks/nav/__brand/nav__brand.css";
+@import "../blocks/nav/__items/nav__items.css";
+@import "../blocks/nav/__item/nav__item.css";
+@import "../blocks/nav/__item/_active/nav__item_active.css";
+@import "../blocks/nav/__link/nav__link.css";
+@import "../blocks/nav/__toggler/nav__toggler.css";
+@import "../blocks/nav/__button/nav__button.css";
+@import "../blocks/nav/__items/_show/nav__items_show.css";
+@import "../blocks/nav/_theme/nav_theme_white.css";
+@import "../blocks/nav/_theme/nav_theme_dark.css";
+/* header */
+@import "../blocks/header/header.css";
+@import "../blocks/header/__wrapper/header__wrapper.css";
+@import "../blocks/header/__container/header__container.css";
+@import "../blocks/header/__container/_size/header_size_small.css";
+@import "../blocks/header/__title/header__title.css";
+@import "../blocks/header/__title/__small/header__title_small.css";
+@import "../blocks/header/__paragraph/header__paragraph.css";
+@import "../blocks/header/__search/header__search.css";
+
+/* footer */
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__container/footer__container.css";
+@import "../blocks/footer/__items/footer__items.css";
+@import "../blocks/footer/__item/footer__item.css";
+@import "../blocks/footer/__link/footer__link.css";
+@import "../blocks/footer/__copyright/footer__copyright.css";
+@import "../blocks/icon-fb/icon-fb.css";
+@import "../blocks/icon-git/icon-git.css";
+
+/* result */
+@import "../blocks/result/result.css";
+@import "../blocks/result/__title/result__title.css";
+@import "../blocks/result/__search/result__search.css";
+@import "../blocks/result/__subtitle/result__subtitle.css";
+@import "../blocks/result/__notFound/result__notFound.css";
+/* cards */
+@import "../blocks/cards/cards.css";
+@import "../blocks/card/card.css";
+@import "../blocks/caret/caret.css";
+@import "../blocks/popup/popup.css";
+@import "../blocks/popup/_open/popup_open.css";
+@import "../blocks/popup/__body/popup__body.css";
+@import "../blocks/popup/__close/popup__close.css";
+@import "../blocks/popup/__name/popup__name.css";
+@import "../blocks/popup/__group/popup__group.css";
+@import "../blocks/popup/__label/popup__label.css";
+@import "../blocks/popup/__field/popup__field.css";
+@import "../blocks/popup/__button/popup__button.css";
+@import "../blocks/popup/__link/popup__link.css";
+@import "../blocks/popup/__error/popup__error.css";
+@import "../blocks/popup/__form/popup__form.css";
+@import "../blocks/popup/__button/_active/popup__button_active.css";
+@import "../blocks/popup/__text/popup__text.css";
+@import "../blocks/popup/__text/_size/popup__text_size_middle.css";
+@import "../blocks/texMuted/textMuted.css";
+* {
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #FFFFFF;
+
+}

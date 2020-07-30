@@ -1,0 +1,18 @@
+.biography__paragraph {
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1A1B22;
+    margin-bottom: 23px;
+    max-width: 600px;
+}
+.biography__paragraph:last-child {
+    margin-bottom: 0;
+}
+@media screen and (max-width: 550px){
+    .biography__paragraph {
+        text-align: center;
+    }
+}

@@ -1,0 +1,30 @@
+.formSearch__button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #2F71E5;
+    box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+    border-radius: 100px;
+    height: 100%;
+    width: 168px;
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition: background 0.2s ease-in-out;
+}
+.formSearch__button:active {
+    background: #2A65CC;
+}
+.formSearch__button:hover {
+    background: #347EFF;
+}
+@media screen and (max-width: 550px) {
+    .formSearch__button {
+        position: relative;
+        padding: 17px 0;
+        width: 100%;
+    }
+}

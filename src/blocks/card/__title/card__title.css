@@ -1,0 +1,9 @@
+.card__title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 30px;
+    max-width: 352px;
+    color: #1A1B22;
+}

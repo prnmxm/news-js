@@ -1,0 +1,14 @@
+.biography__info {
+    margin-left: 32px;
+    margin-top: 51px;
+}
+@media screen and (max-width: 768px){
+    .biography__info {
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 550px){
+    .biography__info {
+        margin-left: 0px;
+    }
+}

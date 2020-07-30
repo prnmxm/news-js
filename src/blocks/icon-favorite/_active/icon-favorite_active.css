@@ -1,0 +1,13 @@
+.icon-favorite_active {
+    display: block;
+    position: relative;
+    width: 14px;
+    height: 19px;
+    background-color: #2F71E5;
+    -webkit-mask-image: url(../../../images/favorite_active.svg);
+    mask-image: url(../../../images/favorite_active.svg);
+    transition: opacity 0.2s ease-in-out;
+}
+.icon-favorite_active:hover {
+    opacity: 0.7;
+}

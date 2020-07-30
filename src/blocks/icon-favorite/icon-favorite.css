@@ -1,0 +1,14 @@
+.icon-favorite {
+    display: block;
+    position: relative;
+    width: 14px;
+    height: 19px;
+    background-color: #1A1B22;
+    -webkit-mask-image: url(../../images/favorite.svg);
+    mask-image: url(../../images/favorite.svg);
+    opacity: 0.7;
+    transition: opacity 0.2s ease-in-out;
+}
+.icon-favorite:hover {
+    opacity: 1;
+}

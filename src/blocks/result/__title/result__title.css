@@ -1,0 +1,13 @@
+.result__title {
+    margin-bottom: 64px;
+}
+@media screen and (max-width: 768px) {
+    .result__title {
+        margin-bottom: 32px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .result__title {
+        margin-bottom: 24px;
+    }
+}

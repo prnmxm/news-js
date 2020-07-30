@@ -1,0 +1,33 @@
+.nav__items {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    transition: all 1s linear;
+}
+@media screen and (max-width: 600px) {
+    .nav__items:not(.nav__items_show) {
+        display: none;
+    }
+    .nav__items {
+        position: absolute;
+        top: 65px;
+        left: 0;
+        width: 100%;
+        height: auto;
+        padding: 40px 40px 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        background: #1A1B22;
+        border-radius: 0 0 16px 16px;
+        z-index: 10;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .nav__items {
+        top: 56px;
+        padding: 40px 16px 24px;
+    }
+}

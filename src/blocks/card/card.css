@@ -1,0 +1,27 @@
+@import "__paragraph/card__paragraph.css";
+@import "__title/card__title.css";
+@import "__body/card__body.css";
+@import "__date/card__date.css";
+@import "__footer/card__footer.css";
+@import "__header/card__header.css";
+@import "__image/card__image.css";
+@import "__owner/card__owner.css";
+@import "__right-block/card__right-block.css";
+@import "__left-block/card__left-block.css";
+@import "__favorites/card__favorites.css";
+@import "__tooltip/card__tooltip.css";
+.card {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 10px;
+    transition: box-shadow 0.2s linear;
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+    min-width: 224px;
+    cursor: pointer;
+}
+.card:hover {
+    box-shadow: 0 0 20px rgba(8, 29, 45, 0.1);
+}

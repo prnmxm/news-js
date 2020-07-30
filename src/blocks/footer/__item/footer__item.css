@@ -1,0 +1,15 @@
+.footer__item {
+    margin-right: 26px;
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.footer__item:last-child {
+    margin-right: 0;
+}
+@media screen and (max-width: 320px){
+    .footer__item {
+        margin-bottom: 25px;
+    }
+}

@@ -1,0 +1,7 @@
+.result__notFound {
+    width: 96px;
+    height: 96px;
+    background: url("../../../images/not-found_v1.svg");
+    background-size: 100%;
+    margin: 0 auto;
+}

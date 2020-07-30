@@ -1,0 +1,10 @@
+.biography__container {
+    display: flex;
+}
+@media screen and (max-width: 550px){
+    .biography__container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+

@@ -1,0 +1,22 @@
+.card__tooltip {
+    display: none;
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+}
+.card__right-block:hover .card__tooltip {
+    position: absolute;
+    top: 0;
+    background: #fff;
+    width: max-content;
+    right: 50px;
+    padding: 0 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 5px #000;
+}
